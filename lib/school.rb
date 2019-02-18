@@ -13,6 +13,7 @@ class School
   end
   
   def grade(grade)
+<<<<<<< HEAD
   roster[grade]
   end
 
@@ -25,5 +26,14 @@ class School
 aka
 end
   
+=======
+  roster[grade].sort
+  end
+   
+   def sort
+     roster.sort.flatten
+   end 
+   
+>>>>>>> 0dff8044036b15c67ce8ba4f8b72222611903af8
 end
  
